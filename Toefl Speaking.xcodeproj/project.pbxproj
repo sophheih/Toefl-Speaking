@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3B6D022540062F0088E975 /* Toefl_SpeakingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B6D012540062F0088E975 /* Toefl_SpeakingApp.swift */; };
+		EC3B6D042540062F0088E975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B6D032540062F0088E975 /* ContentView.swift */; };
+		EC3B6D06254006310088E975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3B6D05254006310088E975 /* Assets.xcassets */; };
+		EC3B6D09254006310088E975 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3B6D08254006310088E975 /* Preview Assets.xcassets */; };
+		EC3B6D14254006310088E975 /* Toefl_SpeakingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B6D13254006310088E975 /* Toefl_SpeakingTests.swift */; };
+		EC3B6D1F254006310088E975 /* Toefl_SpeakingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B6D1E254006310088E975 /* Toefl_SpeakingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3B6D10254006310088E975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3B6CF62540062F0088E975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3B6CFD2540062F0088E975;
+			remoteInfo = "Toefl Speaking";
+		};
+		EC3B6D1B254006310088E975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3B6CF62540062F0088E975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3B6CFD2540062F0088E975;
+			remoteInfo = "Toefl Speaking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC3B6CFE2540062F0088E975 /* Toefl Speaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toefl Speaking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3B6D012540062F0088E975 /* Toefl_SpeakingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toefl_SpeakingApp.swift; sourceTree = "<group>"; };
+		EC3B6D032540062F0088E975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC3B6D05254006310088E975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3B6D08254006310088E975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC3B6D0A254006310088E975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3B6D0F254006310088E975 /* Toefl SpeakingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toefl SpeakingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3B6D13254006310088E975 /* Toefl_SpeakingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toefl_SpeakingTests.swift; sourceTree = "<group>"; };
+		EC3B6D15254006310088E975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3B6D1A254006310088E975 /* Toefl SpeakingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toefl SpeakingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3B6D1E254006310088E975 /* Toefl_SpeakingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toefl_SpeakingUITests.swift; sourceTree = "<group>"; };
+		EC3B6D20254006310088E975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3B6CFB2540062F0088E975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B6D0C254006310088E975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B6D17254006310088E975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3B6CF52540062F0088E975 = {
+			isa = PBXGroup;
+			children = (
+				EC3B6D002540062F0088E975 /* Toefl Speaking */,
+				EC3B6D12254006310088E975 /* Toefl SpeakingTests */,
+				EC3B6D1D254006310088E975 /* Toefl SpeakingUITests */,
+				EC3B6CFF2540062F0088E975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3B6CFF2540062F0088E975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B6CFE2540062F0088E975 /* Toefl Speaking.app */,
+				EC3B6D0F254006310088E975 /* Toefl SpeakingTests.xctest */,
+				EC3B6D1A254006310088E975 /* Toefl SpeakingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3B6D002540062F0088E975 /* Toefl Speaking */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B6D012540062F0088E975 /* Toefl_SpeakingApp.swift */,
+				EC3B6D032540062F0088E975 /* ContentView.swift */,
+				EC3B6D05254006310088E975 /* Assets.xcassets */,
+				EC3B6D0A254006310088E975 /* Info.plist */,
+				EC3B6D07254006310088E975 /* Preview Content */,
+			);
+			path = "Toefl Speaking";
+			sourceTree = "<group>";
+		};
+		EC3B6D07254006310088E975 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B6D08254006310088E975 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC3B6D12254006310088E975 /* Toefl SpeakingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B6D13254006310088E975 /* Toefl_SpeakingTests.swift */,
+				EC3B6D15254006310088E975 /* Info.plist */,
+			);
+			path = "Toefl SpeakingTests";
+			sourceTree = "<group>";
+		};
+		EC3B6D1D254006310088E975 /* Toefl SpeakingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B6D1E254006310088E975 /* Toefl_SpeakingUITests.swift */,
+				EC3B6D20254006310088E975 /* Info.plist */,
+			);
+			path = "Toefl SpeakingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3B6CFD2540062F0088E975 /* Toefl Speaking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3B6D23254006310088E975 /* Build configuration list for PBXNativeTarget "Toefl Speaking" */;
+			buildPhases = (
+				EC3B6CFA2540062F0088E975 /* Sources */,
+				EC3B6CFB2540062F0088E975 /* Frameworks */,
+				EC3B6CFC2540062F0088E975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toefl Speaking";
+			productName = "Toefl Speaking";
+			productReference = EC3B6CFE2540062F0088E975 /* Toefl Speaking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3B6D0E254006310088E975 /* Toefl SpeakingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3B6D26254006310088E975 /* Build configuration list for PBXNativeTarget "Toefl SpeakingTests" */;
+			buildPhases = (
+				EC3B6D0B254006310088E975 /* Sources */,
+				EC3B6D0C254006310088E975 /* Frameworks */,
+				EC3B6D0D254006310088E975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3B6D11254006310088E975 /* PBXTargetDependency */,
+			);
+			name = "Toefl SpeakingTests";
+			productName = "Toefl SpeakingTests";
+			productReference = EC3B6D0F254006310088E975 /* Toefl SpeakingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3B6D19254006310088E975 /* Toefl SpeakingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3B6D29254006310088E975 /* Build configuration list for PBXNativeTarget "Toefl SpeakingUITests" */;
+			buildPhases = (
+				EC3B6D16254006310088E975 /* Sources */,
+				EC3B6D17254006310088E975 /* Frameworks */,
+				EC3B6D18254006310088E975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3B6D1C254006310088E975 /* PBXTargetDependency */,
+			);
+			name = "Toefl SpeakingUITests";
+			productName = "Toefl SpeakingUITests";
+			productReference = EC3B6D1A254006310088E975 /* Toefl SpeakingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3B6CF62540062F0088E975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EC3B6CFD2540062F0088E975 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					EC3B6D0E254006310088E975 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = EC3B6CFD2540062F0088E975;
+					};
+					EC3B6D19254006310088E975 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = EC3B6CFD2540062F0088E975;
+					};
+				};
+			};
+			buildConfigurationList = EC3B6CF92540062F0088E975 /* Build configuration list for PBXProject "Toefl Speaking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3B6CF52540062F0088E975;
+			productRefGroup = EC3B6CFF2540062F0088E975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3B6CFD2540062F0088E975 /* Toefl Speaking */,
+				EC3B6D0E254006310088E975 /* Toefl SpeakingTests */,
+				EC3B6D19254006310088E975 /* Toefl SpeakingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3B6CFC2540062F0088E975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3B6D09254006310088E975 /* Preview Assets.xcassets in Resources */,
+				EC3B6D06254006310088E975 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B6D0D254006310088E975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B6D18254006310088E975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3B6CFA2540062F0088E975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3B6D042540062F0088E975 /* ContentView.swift in Sources */,
+				EC3B6D022540062F0088E975 /* Toefl_SpeakingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B6D0B254006310088E975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3B6D14254006310088E975 /* Toefl_SpeakingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B6D16254006310088E975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3B6D1F254006310088E975 /* Toefl_SpeakingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3B6D11254006310088E975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3B6CFD2540062F0088E975 /* Toefl Speaking */;
+			targetProxy = EC3B6D10254006310088E975 /* PBXContainerItemProxy */;
+		};
+		EC3B6D1C254006310088E975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3B6CFD2540062F0088E975 /* Toefl Speaking */;
+			targetProxy = EC3B6D1B254006310088E975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC3B6D21254006310088E975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3B6D22254006310088E975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3B6D24254006310088E975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Toefl Speaking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Toefl Speaking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pei-Chen-Hsieh.Toefl-Speaking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3B6D25254006310088E975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Toefl Speaking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Toefl Speaking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pei-Chen-Hsieh.Toefl-Speaking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC3B6D27254006310088E975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toefl SpeakingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pei-Chen-Hsieh.Toefl-SpeakingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toefl Speaking.app/Toefl Speaking";
+			};
+			name = Debug;
+		};
+		EC3B6D28254006310088E975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toefl SpeakingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pei-Chen-Hsieh.Toefl-SpeakingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toefl Speaking.app/Toefl Speaking";
+			};
+			name = Release;
+		};
+		EC3B6D2A254006310088E975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toefl SpeakingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pei-Chen-Hsieh.Toefl-SpeakingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toefl Speaking";
+			};
+			name = Debug;
+		};
+		EC3B6D2B254006310088E975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toefl SpeakingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pei-Chen-Hsieh.Toefl-SpeakingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toefl Speaking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3B6CF92540062F0088E975 /* Build configuration list for PBXProject "Toefl Speaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3B6D21254006310088E975 /* Debug */,
+				EC3B6D22254006310088E975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3B6D23254006310088E975 /* Build configuration list for PBXNativeTarget "Toefl Speaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3B6D24254006310088E975 /* Debug */,
+				EC3B6D25254006310088E975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3B6D26254006310088E975 /* Build configuration list for PBXNativeTarget "Toefl SpeakingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3B6D27254006310088E975 /* Debug */,
+				EC3B6D28254006310088E975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3B6D29254006310088E975 /* Build configuration list for PBXNativeTarget "Toefl SpeakingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3B6D2A254006310088E975 /* Debug */,
+				EC3B6D2B254006310088E975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3B6CF62540062F0088E975 /* Project object */;
+}
